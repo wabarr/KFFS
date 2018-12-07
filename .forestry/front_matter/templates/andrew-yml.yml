@@ -43,6 +43,3 @@ fields:
     the fieldschool
   config:
     required: true
-pages:
-- _data/authors/jon-reeves.yml
-- _data/authors/Andrew.yml
