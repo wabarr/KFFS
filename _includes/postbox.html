@@ -1,7 +1,7 @@
 <!-- begin post -->
 
 {% for author in site.data.authors %}
-   {% if author.name == page.author %}
+   {% if author.name == post.author %}
       {% assign author_index =  forloop.index0 %}
    {% endif %}
 {%endfor%}
