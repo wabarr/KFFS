@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/test.yaml
+  label: test
+  match: "**/*"
 - type: directory
   path: _data/authors
   label: Authors
