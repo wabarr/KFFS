@@ -29,4 +29,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _posts/look-at-that-drone.md
 - _posts/2018-12-07-dry-screening.md
