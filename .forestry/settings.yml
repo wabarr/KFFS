@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _/data/authors
+  path: _data/authors
   label: Authors
   create: documents
   match: "**/*"
