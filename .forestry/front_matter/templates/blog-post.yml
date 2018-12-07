@@ -1,0 +1,12 @@
+---
+label: blog post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+pages:
+- _posts/2018-12-05-new-blog-post.md
