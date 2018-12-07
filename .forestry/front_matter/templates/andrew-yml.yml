@@ -8,6 +8,8 @@ fields:
   type: text
   hidden: false
   default: ''
+  description: 'this must be exactly your lowercase first and last name separated
+    by a hyphen like: jon-smith'
 - name: display_name
   label: Display name
   type: text
