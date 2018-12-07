@@ -13,13 +13,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: author
-  label: Author
-  type: text
-  hidden: false
-  default: ''
-  description: this must exactly match the name in the authors list, which is first
-    name and last name separated by hyphen jon-smith
 - name: categories
   label: Categories
   type: tag_list
@@ -30,6 +23,14 @@ fields:
   type: file
   hidden: false
   default: ''
+- type: select
+  name: author
+  config:
+    source:
+      type: documents
+      section: authors-e864f290-846c-4872-9159-056b7380d4ff
+      file: _data/authors.yml
+  label: Author
 pages:
 - _posts/2018-12-07-dry-screening.md
 - _posts/2018-12-07-look-at-that-drone.md
