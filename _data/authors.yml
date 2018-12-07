@@ -1,18 +1,17 @@
-- name: Andrew
-  display_name: Andrew
+- name: andrew-barr
+  display_name: Andrew Barr
   headshot: "/assets/images/blog-authors/barr.jpg"
   email: wabarr@gwu.edu
   web: https://wabarr.com
   twitter: https://twitter.com/wabarree
   about_me: KFFS Paleoecology instructor and Visiting Assistant Professor at George Washington University
 
-- title: Jon Reeves
-  date: 2018-12-07 20:00:42 +0000
+- date: 2018-12-07 20:00:42 +0000
   name: jon-reeves
-  display_name: Jon
+  display_name: Jon Reeves
   headshot: ''
   email: jsreeves@gwmail.gwu.edu
   web: ''
   twitter: ''
-  about_me: 'Paleolithic archaeology PhD candidate at GWU.  Interested in hominin landscape use. '
+  about_me: 'PhD candidate in Hominid Paleobiology at GWU.  Interested in paleolithic archaeology and hominin landscape use.'
 
