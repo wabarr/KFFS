@@ -1,5 +1,5 @@
 ---
 layout: page
-title: About the Koobi Fora Field School
+title: Information for applicants
 comments: false
 ---
