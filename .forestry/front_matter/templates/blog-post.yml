@@ -8,3 +8,5 @@ fields:
   label: title
   config:
     required: true
+pages:
+- _posts/flags-flags-and-more-flags.md
