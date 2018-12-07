@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Dispatches from the field"
+title: What to bring
 comments: false
 ---
-

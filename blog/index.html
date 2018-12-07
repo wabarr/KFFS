@@ -1,32 +1,9 @@
 ---
 layout: default
-title: Home
+title: Dispatches from the field
 ---
 
-{% if page.url == "/" %}
 
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
-    <div class="section-title">
-        <h2><span>Featured</span></h2>
-    </div>
-    <div class="row">
-        
-    {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
-    {% endfor %}
-        
-    </div>
-</section>
-
-{% endif %}
 
 <!-- Posts Index
 ================================================== -->
@@ -34,7 +11,7 @@ title: Home
     
     <div class="section-title">
         
-        <h2><span>All Stories</span></h2>
+        <h2><span>Dispatches from the field...</span></h2>
         
     </div>
     
@@ -50,6 +27,8 @@ title: Home
     
 </section>
 
+
+
 <!-- Pagination
 ================================================== -->
 <div class="bottompagination">
@@ -58,4 +37,5 @@ title: Home
     {% include pagination.html %}
 </span>
 </div>
+
 
