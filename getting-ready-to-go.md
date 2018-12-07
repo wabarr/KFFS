@@ -1,5 +1,5 @@
 ---
 layout: page
-title: What to bring
+title: "Getting ready to go..."
 comments: false
 ---
