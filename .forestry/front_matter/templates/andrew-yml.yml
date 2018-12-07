@@ -36,5 +36,12 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: textarea
+  name: about_me
+  label: About Me
+  description: Just a sentence or two describing your research question and role on
+    the fieldschool
+  config:
+    required: true
 pages:
 - _data/authors/jon-reeves.yml
