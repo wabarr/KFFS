@@ -12,16 +12,19 @@ mailchimp-list: #'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20
 # Plugins
 plugins: 
   - jekyll-paginate
-  - jekyll-archives
+#  - jekyll-archives
     
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
+## Archives
+#jekyll-archives:
+#  enabled:
+#    - categories
+#  layout: archive
+#  permalinks:
+#    category: '/category/:name/'
     
+    
+permalink: :year/:month/:day/:title:output_ext
+
 # Pagination 
 paginate: 6
 paginate_path: "/blog/page:num/"
