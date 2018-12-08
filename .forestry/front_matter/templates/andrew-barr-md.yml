@@ -3,12 +3,19 @@ label: Person
 hide_body: false
 is_partial: false
 fields:
-- name: name
-  label: short name
-  type: text
-  hidden: false
-  default: ''
-  description: this isn't shown anywhere on the website
+- type: select
+  name: username
+  config:
+    source:
+      type: documents
+      section: usernames
+      file: _data/usernames.yml
+      path: Usernames
+    required: true
+  label: username
+  description: If you are trying to add a new person, you first need to assign a username
+    using the form in the sidebar
+  default: wabarr
 - name: display_name
   label: Display name
   type: text
