@@ -31,6 +31,7 @@ fields:
       section: authors-e864f290-846c-4872-9159-056b7380d4ff
       file: _data/authors.yml
   label: Author
+  default: Authors
 pages:
 - _posts/2018-12-07-dry-screening.md
 - _posts/2018-12-07-look-at-that-drone.md
