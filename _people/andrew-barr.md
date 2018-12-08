@@ -1,12 +1,14 @@
 ---
-name: "andrew-barr"
-display_name: "Andrew Barr"
-headshot: "/assets/images/blog-authors/barr.jpg"
-email: "wabarr@gwu.edu"
-web: "https://wabarr.com"
-twitter: "@wabarree"
-staff: "yes"
-alum: "no"
----
+title: Andrew Barr
+staff_member: 'yes'
+alum: 'no'
+date: 2018-12-08 14:33:38 +0000
+name: andrew-barr
+display_name: Andrew Barr
+headshot: https://koobifora.org/assets/images/blog-authors/barr.jpg
+email: wabarr@gwu.edu
+web: https://wabarr.com
+twitter: wabarree
 
-KFFS Paleoecology instructor and Visiting Assistant Professor at George Washington University
+---
+Andrew is the leader of the paleoecology program and a Visiting Assistant Professor at GWU.
