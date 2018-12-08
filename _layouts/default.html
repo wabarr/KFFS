@@ -57,53 +57,7 @@
     
     <div class="collapse navbar-collapse" id="navbarMediumish">
        
-        <!-- Begin Menu -->
-        
-            <ul class="navbar-nav ml-auto">
-                
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
-                </li>
-                
-                {% if page.url == "/blog" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
-                </li>
-                
-                {% if page.url == "/prospective-students" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/prospective-students">Info for Applicants</a>
-                </li>
-                
-                {% if page.url == "/getting-ready-to-go" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/getting-ready-to-go">Getting Ready to Go</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.facebook.com/KoobiForaFieldSchool/"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                
-                <li class="nav-item">
-                <a target="_blank"  class="nav-link" href="https://twitter.com/koobiforafs"><i class="fab fa-twitter"></i></a>
-                </li>
-                
-            </ul>		
-  
-        <!-- End Menu -->
+        {% include navmenu.html %}
 
     </div>
         
