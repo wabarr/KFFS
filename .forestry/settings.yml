@@ -4,12 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: _data/blog-authors.csv
-  label: Blog Authors
-- type: document
-  path: _data/authors.yml
-  label: Authors
+- type: directory
+  path: _people
+  label: People
+  create: documents
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
