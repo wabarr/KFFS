@@ -68,3 +68,5 @@ fields:
     - 'no'
   label: Alumnus of fieldschool
   default: 'yes'
+pages:
+- _people/andrew-barr.md
