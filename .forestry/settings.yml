@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/blog-authors.csv
+  label: Blog Authors
+  match: "**/*"
+- type: document
   path: _data/authors.yml
   label: Authors
 - type: jekyll-pages
