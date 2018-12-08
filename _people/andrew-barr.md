@@ -9,5 +9,6 @@ headshot: https://koobifora.org/assets/images/blog-authors/barr.jpg
 email: wabarr@gwu.edu
 web: https://wabarr.com
 twitter: "@wabarree"
-published: true
+
 ---
+Andrew is the director of the paleoecology program for the KFFS and is a Visiting Assistant Professor at the George Washington University. 
