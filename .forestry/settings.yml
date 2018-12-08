@@ -13,7 +13,7 @@ sections:
   create: documents
   match: "**/*"
 - type: jekyll-pages
-  label: Website Pages (non-blog)
+  label: Main Pages (non-blog)
   create: all
 - type: jekyll-posts
   label: Blog Posts
