@@ -1,45 +1,63 @@
 ---
 label: andrew-barr.md
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: name
-  label: Name
+  label: short name
   type: text
   hidden: false
   default: ''
+  description: this isn't shown anywhere on the website
 - name: display_name
   label: Display name
   type: text
   hidden: false
   default: ''
+  description: this is the name that will be shown on the website
 - name: headshot
   label: Headshot
   type: file
   hidden: false
   default: ''
+  description: this image must be square, no bigger than 1.5 Mb
+  config:
+    maxSize: '1.5'
 - name: email
-  label: Email
+  label: Email address
   type: text
   hidden: false
   default: ''
 - name: web
-  label: Web
+  label: Personal website address
   type: text
   hidden: false
   default: ''
 - name: twitter
-  label: Twitter
+  label: Twitter username
   type: text
   hidden: false
   default: ''
-- name: staff
-  label: Staff
-  type: text
-  hidden: false
-  default: ''
-- name: alum
-  label: Alum
-  type: text
-  hidden: false
+  description: with or without the @ symbol
+- type: select
+  name: staff_member
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - 'yes'
+    - 'no'
+  label: Staff Member
+  default: 'yes'
+- type: select
+  name: alum
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - 'yes'
+    - 'no'
+  label: Alumnus of fieldschool
   default: ''
