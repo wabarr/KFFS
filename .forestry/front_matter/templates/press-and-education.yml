@@ -14,11 +14,6 @@ fields:
   hidden: false
   default: ''
   description: A title for your blog post
-- type: text
-  name: author
-  label: Author
-  description: 'This must match exactly the name of one of the authors defined in
-    the Authors list '
 - name: categories
   label: Categories
   type: tag_list
