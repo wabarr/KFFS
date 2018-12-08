@@ -11,3 +11,4 @@ web: https://wabarr.com
 twitter: wabarree
 
 ---
+Andrew is the leader of the paleoecology program and a Visiting Assistant Professor at GWU.
