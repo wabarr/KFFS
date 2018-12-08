@@ -13,10 +13,10 @@ sections:
   create: documents
   match: "**/*"
 - type: jekyll-pages
-  label: Pages
+  label: Website Pages (non-blog)
   create: all
 - type: jekyll-posts
-  label: Posts
+  label: Blog Posts
   create: all
 upload_dir: assets/images
 public_path: https://koobifora.org/assets/images
