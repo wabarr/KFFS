@@ -28,7 +28,7 @@ because I want to access them based on their name attribute, which might change!
                 <img class="author-thumb" src="{% if author.headshot != '' %}{{site.baseurl}}{{author.headshot}}{% else %}{{site.baseurl}}/assets/images/blog-authors/unknown.png{% endif %}" alt="{{ author.display_name }}">
                 </span>                
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
+                <span class="post-name"><a target="_blank">{{ author.display_name }}</a></span><br/>
                 {% endif %}
                 <span class="post-date">{{ post.date | date_to_string }}</span>
                 </span>
