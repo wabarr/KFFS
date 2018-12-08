@@ -18,6 +18,8 @@ sections:
 - type: jekyll-posts
   label: Blog Posts
   create: all
+  templates:
+  - press-and-education
 upload_dir: assets/images
 public_path: https://koobifora.org/assets/images
 front_matter_path: ''
