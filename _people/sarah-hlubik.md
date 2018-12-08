@@ -1,14 +1,13 @@
 ---
 title: Sarah Hlubik
-username: wabarr
+username: hlubik
 staff_member: 'yes'
-alum: 'yes'
+alum: 'no'
 date: 2018-12-08 17:34:54 +0000
-display_name: Sarah
+display_name: Sarah Hlubik
 headshot: ''
 email: ''
 web: ''
-twitter: ''
-published: false
+twitter: adefenestration
 
 ---
