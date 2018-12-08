@@ -10,4 +10,4 @@ email: wabarr@gwu.edu
 web: https://wabarr.com
 twitter: "@wabarree"
 published: true
-=======
+---
