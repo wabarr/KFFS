@@ -17,15 +17,15 @@ post_class: post-template
 		
 
 		<!-- Post -->        
-      {% for author in site.data.authors %}
-         {% if author.name == page.author %}
+      {% for author in site.people %}
+         {% if author.username == page.author %}
             {% assign author_index =  forloop.index0 %}
          {% endif %}
       {%endfor%}
       <!-- This feels like a dastardly hack, but I can't find out any other way to index the 
       authors array, unless the elements in the authors yaml are named, which I don't want them to be
       because I want to access them based on their name attribute, which might change! -->
-      {% assign author = site.data.authors[author_index] %}
+      {% assign author = site.people[author_index] %}
         
 		<div class="col-md-9 flex-first flex-md-unordered">
 			<div class="mainheading">
