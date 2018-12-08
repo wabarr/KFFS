@@ -9,6 +9,5 @@ headshot: https://koobifora.org/assets/images/blog-authors/barr.jpg
 email: wabarr@gwu.edu
 web: https://wabarr.com
 twitter: "@wabarree"
-published: false
 
 ---
