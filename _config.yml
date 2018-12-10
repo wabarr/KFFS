@@ -23,7 +23,7 @@ plugins:
 #    category: '/category/:name/'
     
     
-permalink: :year/:month/:day/:title:output_ext
+permalink: :year/:month/:day/:title:output_ext/
 
 collections:
   - people
