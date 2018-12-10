@@ -15,6 +15,7 @@ fields:
   name: comments
   label: comments
   default: 'false'
+  hidden: true
 pages:
 - packing-list.md
 - how-to-apply.md
