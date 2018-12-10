@@ -1,0 +1,17 @@
+---
+label: website page
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  hidden: true
+  default: page
+- type: text
+  label: Page Title
+  name: title
+- type: text
+  name: comments
+  label: comments
+  default: 'false'
