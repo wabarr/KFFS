@@ -1,1 +1,0 @@
-This is the codebase for the Koobi Fora Field School website.  It is based on the Mediumish jekyll theme https://jekyllthemes.io/theme/mediumish
