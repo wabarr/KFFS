@@ -16,7 +16,7 @@ sections:
   - person
 - type: jekyll-pages
   label: Main Pages (non-blog)
-  create: all
+  create: documents
   templates:
   - website-page
 - type: jekyll-posts
