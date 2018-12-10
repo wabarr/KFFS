@@ -1,12 +1,17 @@
 menu:
-   home:
-      link: /
-   blog:
-      link: /blog/
-   prospective:
-      apply:
-         link: /how-to-apply/
-      fellowship:
-         link: /fellowship/
-         
-   
+  - title: Prospective Students
+    subfolderitems:
+      - page: How to Apply
+        url: /how-to-apply/
+      - page: Fellowship Information
+        url: /fellowship/
+  - title: Preparing for the Fieldschool
+    subfolderitems:
+      - page: Packing List
+        url: /packing-list/
+  - title: People
+    subfolderitems:
+      - page: Fieldschool Staff
+        url: /staff/
+      - page: Fieldschool Alumni
+        url: /alumni/

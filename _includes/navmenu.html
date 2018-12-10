@@ -2,37 +2,25 @@
 
     <ul class="navbar-nav ml-auto">
         
-        {% if page.url == "/" %}
-        <li class="nav-item active">
-        {% else %}
-        <li class="nav-item">
-        {% endif %}
-        <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
-        </li>
         
-        {% if page.url == "/blog" %}
-        <li class="nav-item active">
-        {% else %}
-        <li class="nav-item">
-        {% endif %}
-        <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
-        </li>
-        
-        {% if page.url == "/prospective-students" %}
-        <li class="nav-item active">
-        {% else %}
-        <li class="nav-item">
-        {% endif %}
-        <a class="nav-link" href="{{ site.baseurl }}/prospective-students">Info for Applicants</a>
-        </li>
-        
-        {% if page.url == "/getting-ready-to-go" %}
-        <li class="nav-item active">
-        {% else %}
-        <li class="nav-item">
-        {% endif %}
-        <a class="nav-link" href="{{ site.baseurl }}/getting-ready-to-go">Getting Ready For Fieldwork</a>
-        </li>
+       <li class="nav-item">
+       <a class="nav-link" href="{{site.baseurl}}/">Home</a>
+       </li>
+       
+       <li class="nav-item">
+       <a class="nav-link" href="{{site.baseurl}}/blog/">Blog</a>
+       </li>
+       
+       {% for item in site.data.menu.menu %}
+          <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">{{item.title}}</a>
+             <div class="dropdown-menu">
+                {% for entry in item.subfolderitems %}
+                <a class="dropdown-item" href="{{site.baseurl}}{{entry.url}}">{{entry.page}}</a>
+                {% endfor %}
+             </div>
+          <li>
+       {% endfor %}
 
         <li class="nav-item">
         <a target="_blank" class="nav-link" href="https://www.facebook.com/KoobiForaFieldSchool/"><i class="fab fa-facebook-f"></i></a>
