@@ -15,3 +15,5 @@ fields:
   name: comments
   label: comments
   default: 'false'
+pages:
+- packing-list.md
