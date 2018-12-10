@@ -8,6 +8,8 @@ display_name: Jonathan Reeves
 headshot: ''
 email: ''
 web: ''
-twitter: ""
-published: true
+twitter: ''
+first_name: Jonathan
+family_name: Reeves
+
 ---
