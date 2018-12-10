@@ -17,3 +17,4 @@ fields:
   default: 'false'
 pages:
 - packing-list.md
+- how-to-apply.md
