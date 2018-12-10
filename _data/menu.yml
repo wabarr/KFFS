@@ -1,0 +1,12 @@
+menu:
+   home:
+      link: /
+   blog:
+      link: /blog/
+   prospective:
+      apply:
+         link: /how-to-apply/
+      fellowship:
+         link: /fellowship/
+         
+   
