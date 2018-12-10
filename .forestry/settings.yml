@@ -12,14 +12,18 @@ sections:
   label: People
   create: documents
   match: "**/*"
+  templates:
+  - person
 - type: jekyll-pages
   label: Main Pages (non-blog)
   create: all
+  templates:
+  - website-page
 - type: jekyll-posts
   label: Blog Posts
   create: all
   templates:
-  - press-and-education
+  - blog-post
 upload_dir: assets/images
 public_path: assets/images
 front_matter_path: ''
