@@ -6,7 +6,7 @@ author: wabarr
 categories:
 - fieldwork
 - fossils
-image: assets/images/landrover.jpg
+image: assets/images/DSC_0106.JPG
 
 ---
 Dry screening all day, son!
