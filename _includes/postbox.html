@@ -5,9 +5,6 @@
       {% assign author_index =  forloop.index0 %}
    {% endif %}
 {%endfor%}
-<!-- This feels like a dastardly hack, but I can't find out any other way to index the 
-authors array, unless the elements in the authors yaml are named, which I don't want them to be
-because I want to access them based on their name attribute, which might change! -->
 {% assign author = site.people[author_index] %}
 
 <div class="col-lg-4 col-md-6 mb-30px card-group">
@@ -25,7 +22,7 @@ because I want to access them based on their name attribute, which might change!
             <div class="wrapfooter">
                 {% if post.author %}
                 <span class="meta-footer-thumb">
-                <img class="author-thumb" src="{% if author.headshot != '' %}{{site.baseurl}}{{author.headshot}}{% else %}{{site.baseurl}}/assets/images/blog-authors/unknown.png{% endif %}" alt="{{ author.display_name }}">
+                <img class="author-thumb" src="{% if author.headshot != '' %}{{site.baseurl}}/{{author.headshot}}{% else %}{{site.baseurl}}/assets/images/blog-authors/unknown.png{% endif %}" alt="{{ author.display_name }}">
                 </span>                
                 <span class="author-meta">
                 <span class="post-name"><a target="_blank">{{ author.display_name }}</a></span><br/>
