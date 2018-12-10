@@ -16,12 +16,18 @@ fields:
   description: If you are trying to add a new person, you first need to assign a username
     using the form in the sidebar
   default: wabarr
-- name: display_name
-  label: Display name
-  type: text
-  hidden: false
-  default: ''
-  description: this is the name that will be shown on the website
+- type: text
+  name: first_name
+  label: First Name
+  description: The person's first name (given name)
+  config:
+    required: true
+- type: text
+  name: family_name
+  label: family name
+  description: The person's family name
+  config:
+    required: true
 - name: headshot
   label: Headshot
   type: file
