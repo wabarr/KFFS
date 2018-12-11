@@ -12,3 +12,5 @@ web: ''
 twitter: ''
 
 ---
+
+Tyler Faith is Curator of Archaeology at the Natural History Museum of Utah and Assistant Professor in the Anthropology Department at the University of Utah. 

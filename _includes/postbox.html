@@ -1,6 +1,6 @@
 <!-- begin post -->
 
-{% for author in site.people %}
+{% for author in site.people"%}
    {% if author.username == post.author %}
       {% assign author_index =  forloop.index0 %}
    {% endif %}
@@ -18,7 +18,7 @@
             <h2 class="card-title"><a class="text-dark" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>            
         </div>
-        <div class="card-footer bg-white">
+        <div class="card-footer bg-transparent">
             <div class="wrapfooter">
                 {% if post.author %}
                 <span class="meta-footer-thumb">

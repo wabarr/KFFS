@@ -1,8 +1,9 @@
 ---
-title: Alumni
+title: KFFS Alumni
 layout: page
-comments: 'false'
-date: 2018-12-10 17:14:20 +0000
-
 ---
-Many alumni of the fieldschool have gone on to do great things in the field!
+
+<div class="row">
+{% assign people = site.people | where: "alum", "yes" | where: "staff_member", "no" | sort:"family_name" %}
+{% include people_list.html %}
+</div>
