@@ -33,7 +33,8 @@ fields:
   type: file
   hidden: false
   default: ''
-  description: this image must be square, no bigger than 1.5 Mb
+  description: 'this image should be cropped square, no bigger than 1Mb.  This appears
+    in staff/alumni pages as well on authored blog posts. '
   config:
     maxSize: '1.5'
 - name: email
