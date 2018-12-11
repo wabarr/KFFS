@@ -9,6 +9,8 @@ menu:
     subfolderitems:
       - page: Packing List
         url: /packing-list/
+      - page: Living Conditions
+        url: /living-conditions/
   - title: People
     subfolderitems:
       - page: Fieldschool Staff
