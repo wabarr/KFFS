@@ -12,4 +12,4 @@ first_name: W. Andrew
 family_name: Barr
 
 ---
-Andrew is the director of the paleoecology program for the KFFS and is a Visiting Assistant Professor at the George Washington University.
+Andrew is the leader of the paleoecology program for the KFFS and is a Visiting Assistant Professor at the George Washington University.
