@@ -10,6 +10,5 @@ headshot: ''
 email: ''
 web: ''
 twitter: ''
-published: false
 
 ---
