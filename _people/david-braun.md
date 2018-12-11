@@ -12,4 +12,4 @@ web: ''
 twitter: DavidRBraun1
 
 ---
-David Braun is the co-director of the Koobi Fora Field School
+David is the co-director of the Koobi Fora Field School
