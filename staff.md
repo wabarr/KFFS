@@ -33,7 +33,7 @@ layout: page
 </a>
 </div>
 {% endif %}
-{% if person.twitter %}
+{% if person.twitter != ""%}
 <div class="col-6">
 <a href="https://twitter.com/{{person.twitter | replace:'@',''}}">
    Follow <i class="fab fa-twitter fa-1x"></i>
