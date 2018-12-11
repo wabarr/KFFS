@@ -27,14 +27,14 @@ layout: page
 <div class="wrapfooter">
 <div class="row">
 {% if person.email != "" %}
-<div class="col-xs-4">
+<div class="col-xs-6">
 <a href="mailto:{{person.email}}">
    Contact <i class="fa fa-envelope fa-1x"></i>
 </a>
 </div>
 {% endif %}
 {% if person.twitter %}
-<div class="col-xs-4">
+<div class="col-xs-6">
 <a href="https://twitter.com/{{person.twitter | replace:'@',''}}">
    Follow <i class="fab fa-twitter fa-1x"></i>
 </a>
