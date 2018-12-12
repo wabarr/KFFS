@@ -14,16 +14,22 @@ title: Dispatches from the field
         <h2><span>Dispatches from the field...</span></h2>
         
     </div>
-    
-    <div class="row listrecent">
+    <div class="row">
+    <div class="col-xsm-4 col-md-8">
+       <div class="row listrecent">
 
-        {% for post in paginator.posts %}
+           {% for post in paginator.posts %}
 
-               {% include postbox.html %}          
+                  {% include postbox.html %}          
 
-        {% endfor %}
-        
+           {% endfor %}
+       </div>
     </div>
+    <div class="col-xsm-4 col-md-4">
+       <a class="twitter-timeline" data-height="600" href="https://twitter.com/koobiforafs?ref_src=twsrc%5Etfw">Tweets by koobiforafs</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    </div>
+    
     
 </section>
 
