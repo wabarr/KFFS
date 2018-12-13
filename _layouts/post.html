@@ -77,7 +77,7 @@ post_class: post-template
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
-                     <a>{{category}}</a>
+                     <a href="{{site.baseurl}}/category/{{category}}/">{{category}}</a>
                     </li>
                     {% endfor %}
 				</ul>
