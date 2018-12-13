@@ -1,20 +1,20 @@
+---
 menu:
-  - title: Prospective Students
-    subfolderitems:
-      - page: How to Apply
-        url: /how-to-apply/
-      - page: Fellowship Information
-        url: /fellowship/
-  - title: Preparing for the Fieldschool
-    subfolderitems:
-      - page: Packing List
-        url: /packing-list/
-      - page: Living Conditions
-        url: /living-conditions/
-  - title: People
-    subfolderitems:
-      - page: Fieldschool Staff
-        url: /staff/
-      - page: Fieldschool Alumni
-        url: /alumni/
-
+- title: Prospective Students
+  subfolderitems:
+  - page: How to Apply
+    url: "/how-to-apply/"
+  - page: Fellowship Information
+    url: "/fellowship/"
+- title: Preparing for the Fieldschool
+  subfolderitems:
+  - page: Packing List
+    url: "/packing-list/"
+  - page: Living Conditions
+    url: "/living-conditions/"
+- title: People
+  subfolderitems:
+  - page: Fieldschool Staff
+    url: "/staff/"
+  - page: Fieldschool Alumni
+    url: "/alumni/"
