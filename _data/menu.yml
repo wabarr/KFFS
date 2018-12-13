@@ -1,7 +1,9 @@
 ---
 menu:
 - title: Here's another nice menu
-  subfolderitems: ''
+  subfolderitems:
+  - page: google
+    url: https://www.google.com
 - title: Prospective Students
   subfolderitems:
   - page: How to Apply
