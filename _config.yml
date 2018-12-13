@@ -15,12 +15,12 @@ plugins:
 #  - jekyll-archives
     
 ## Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
     
     
 permalink: :year/:month/:day/:title:output_ext/
