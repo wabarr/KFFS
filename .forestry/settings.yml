@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: _data/menu.yml
-  label: Menu
+  label: Navigation Menu
 - type: document
   path: _data/usernames.yml
   label: usernames
