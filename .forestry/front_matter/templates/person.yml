@@ -27,7 +27,7 @@ fields:
   label: blog author username
   description: 'This field is only required if this person will be authoring blog
     posts. '
-  default: wabarr
+  default: ''
 - name: headshot
   label: Headshot
   type: file
