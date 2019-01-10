@@ -40,8 +40,8 @@ fields:
   type: file
   hidden: false
   default: ''
-  description: 'this image should be cropped square, no bigger than 1Mb.  This appears
-    in staff/alumni pages as well on authored blog posts. '
+  description: this image can be no bigger than 1.5Mb.  Square or wide rectangular
+    images (4:3 aspect ratio) work best. Face needs to be centered in image.
   config:
     maxSize: '1.5'
 - name: email
