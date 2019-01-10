@@ -1,5 +1,5 @@
 ---
-title: Andrew Barr
+title: W. Andrew Barr
 username: wabarr
 staff_member: 'yes'
 alum: 'no'
@@ -11,5 +11,6 @@ twitter: "@wabarree"
 first_name: W. Andrew
 family_name: Barr
 layout: person_detail
+
 ---
 Andrew is the leader of the paleoecology program for the KFFS.
