@@ -4,7 +4,7 @@ username: hlubik
 staff_member: 'yes'
 alum: 'no'
 date: 2018-12-08 17:34:54 +0000
-headshot: ''
+headshot: assets/images/152 Hlubik.jpg
 email: ''
 web: ''
 twitter: adefenestration
