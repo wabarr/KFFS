@@ -12,7 +12,11 @@
 
 <div class="card-body">
 <h2 class="card-title"><a class="text-dark">{{ person.first_name }} {{person.family_name}}</a></h2>
-<p class="card-text">{{ person.content }}</p>    
+<p class="card-text">{{ person.content | strip_html | truncatewords: 30 }}</p>
+{% assign nwords = person.content | strip_html | number_of_words %} 
+{% if nwords > 30 %}
+<p><a href="{{site.baseurl}}{{person.url}}">Read more...</a></p>
+{%endif%}
 </div>
 
 <div class="card-footer bg-transparent">

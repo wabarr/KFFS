@@ -26,7 +26,8 @@ plugins:
 permalink: :year/:month/:day/:title:output_ext/
 
 collections:
-  - people
+   people:
+      output: true
 
 # Pagination 
 paginate: 6

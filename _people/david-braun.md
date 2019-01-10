@@ -10,6 +10,7 @@ headshot: assets/images/David R. Braun.jpg
 email: 'david_braun@gwu.edu '
 web: ''
 twitter: DavidRBraun1
+layout: person_detail
 
 ---
 David is the co-director of the Koobi Fora Field School

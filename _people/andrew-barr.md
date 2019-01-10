@@ -10,6 +10,6 @@ web: https://wabarr.com
 twitter: "@wabarree"
 first_name: W. Andrew
 family_name: Barr
-
+layout: person_detail
 ---
 Andrew is the leader of the paleoecology program for the KFFS.

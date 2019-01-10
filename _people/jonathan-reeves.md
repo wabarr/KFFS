@@ -10,6 +10,6 @@ web: ''
 twitter: ''
 first_name: Jonathan
 family_name: Reeves
-
+layout: person_detail
 ---
 Jonathan is interested in hominin landscape use and lithic technology.

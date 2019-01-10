@@ -10,6 +10,7 @@ web: ''
 twitter: adefenestration
 first_name: Sarah
 family_name: Hlubik
+layout: person_detail
 
 ---
 Sarah studies the origins of fire.

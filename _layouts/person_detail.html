@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+
+<section>
+    <div class="section-title">
+        <h2>{{ page.title }}</h2>
+    </div>
+    
+    <div class="article-post">
+       <div class="row">
+          <div class="col-md-4">
+             {% if page.headshot and page.headshot != '' %}
+             <img src="{{site.baseurl}}/{{page.headshot}}">
+             {% else %}
+             <img src="{{site.baseurl}}/assets/images/blog-authors/unknown.png">
+             {% endif %}
+          </div>
+          <div class="col-md-8">
+             {{content}}
+          </div>
+       </div>
+    </div>
+    
+
+</section>
