@@ -1,4 +1,5 @@
 ---
+title: Lee Berger
 username: ''
 staff_member: 'no'
 alum: 'yes'

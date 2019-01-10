@@ -1,4 +1,5 @@
 ---
+title: Emmanuel Ndiema
 staff_member: 'yes'
 alum: 'no'
 layout: person_detail
