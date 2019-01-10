@@ -75,9 +75,16 @@ fields:
     - 'no'
   label: Alumnus of fieldschool
   default: 'yes'
+- type: text
+  label: layout
+  name: layout
+  config:
+    required: true
+  hidden: true
+  default: person_detail
 pages:
-- _people/andrew-barr.md
 - _people/sarah-hlubik.md
 - _people/david-braun.md
 - _people/tyler-faith.md
 - _people/lee-berger.md
+- _people/andrew-barr.md
