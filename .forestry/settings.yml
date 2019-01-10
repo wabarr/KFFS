@@ -9,7 +9,7 @@ sections:
   label: Navigation Menu
 - type: document
   path: _data/usernames.yml
-  label: usernames
+  label: Blog Authors
 - type: directory
   path: _people
   label: People
