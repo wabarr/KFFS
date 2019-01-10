@@ -15,6 +15,13 @@ fields:
   description: The person's family name
   config:
     required: true
+- type: text
+  name: title
+  label: Full Display Name
+  description: How should this person's name appear? Usually this is just Firstname
+    Familyname
+  config:
+    required: true
 - type: select
   name: username
   config:
@@ -90,4 +97,5 @@ pages:
 - _people/ashley-hammond.md
 - _people/andrew-barr.md
 - _people/purity-kiura.md
+- _people/rahab-kinyanjui.md
 - _people/emmanual-ndiema.md

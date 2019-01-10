@@ -11,6 +11,7 @@ email: ''
 web: ''
 twitter: ''
 date: 2019-01-10 15:45:19 +0000
+title: Emmanuel Ndiema
 
 ---
 Emmanual Ndiema is the field director of the Koobi Fora Field School
