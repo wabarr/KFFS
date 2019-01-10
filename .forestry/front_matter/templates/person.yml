@@ -25,7 +25,8 @@ fields:
       path: Usernames
     required: false
   label: blog author username
-  description: This field is only required if this person will be authoring blog posts
+  description: 'This field is only required if this person will be authoring blog
+    posts. '
   default: wabarr
 - name: headshot
   label: Headshot
