@@ -3,19 +3,6 @@ label: Person
 hide_body: false
 is_partial: false
 fields:
-- type: select
-  name: username
-  config:
-    source:
-      type: documents
-      section: usernames
-      file: _data/usernames.yml
-      path: Usernames
-    required: true
-  label: username
-  description: If you are trying to add a new person, you first need to assign a username
-    using the form in the sidebar
-  default: wabarr
 - type: text
   name: first_name
   label: First Name
@@ -28,6 +15,18 @@ fields:
   description: The person's family name
   config:
     required: true
+- type: select
+  name: username
+  config:
+    source:
+      type: documents
+      section: usernames
+      file: _data/usernames.yml
+      path: Usernames
+    required: false
+  label: blog author username
+  description: This field is only required if this person will be authoring blog posts
+  default: wabarr
 - name: headshot
   label: Headshot
   type: file
