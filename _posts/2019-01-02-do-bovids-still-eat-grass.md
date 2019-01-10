@@ -9,4 +9,4 @@ image: assets/images/impala.jpg
 author: wabarr
 
 ---
-Yes.
+Yes. Yes they do. Also leaves.
