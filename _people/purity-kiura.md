@@ -1,4 +1,5 @@
 ---
+title: Purity Kiura
 username: ''
 staff_member: 'yes'
 alum: 'yes'

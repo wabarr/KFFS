@@ -1,4 +1,5 @@
 ---
+title: Ashley Hammond
 username: ahammond
 staff_member: 'yes'
 alum: 'no'
