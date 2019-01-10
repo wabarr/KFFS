@@ -18,8 +18,8 @@ fields:
 - type: text
   name: title
   label: Full Display Name
-  description: How should this person's name appear? Usually this is just GivenName
-    FamilyName
+  description: How should this person's name appear? Usually this is just Firstname
+    Familyname
   config:
     required: true
 - type: select
