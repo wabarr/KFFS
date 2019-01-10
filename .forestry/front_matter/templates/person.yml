@@ -63,7 +63,7 @@ fields:
     - 'yes'
     - 'no'
   label: Staff Member
-  default: 'yes'
+  default: 'no'
 - type: select
   name: alum
   config:
@@ -74,7 +74,7 @@ fields:
     - 'yes'
     - 'no'
   label: Alumnus of fieldschool
-  default: 'yes'
+  default: 'no'
 - type: text
   label: layout
   name: layout
