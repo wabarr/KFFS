@@ -11,7 +11,7 @@
 </div>
 
 <div class="card-body">
-<h2 class="card-title"><a class="text-dark">{{ person.first_name }} {{person.family_name}}</a></h2>
+<h3 class="card-title"><a class="text-dark">{{ person.first_name }} {{person.family_name}}</a></h3>
 <p class="card-text">{{ person.content | strip_html | truncatewords: 30 }}</p>
 {% assign nwords = person.content | strip_html | number_of_words %} 
 {% if nwords > 30 %}
@@ -19,19 +19,20 @@
 {%endif%}
 </div>
 
-<div class="card-footer bg-transparent">
+{% if person.twitter != "" or person.email != "" %}
+<div class="card-footer">
 <div class="wrapfooter">
 <div class="row">
 {% if person.email != "" %}
 <div class="col-6">
-<a style="font-size:150%" href="mailto:{{person.email}}">
+<a style="font-size:125%" href="mailto:{{person.email}}">
    Contact <i class="fa fa-envelope fa-1x"></i>
 </a>
 </div>
 {% endif %}
 {% if person.twitter != ""%}
 <div class="col-6">
-<a style="font-size:150%" href="https://twitter.com/{{person.twitter | replace:'@',''}}">
+<a style="font-size:125%" href="https://twitter.com/{{person.twitter | replace:'@',''}}">
    Follow <i class="fab fa-twitter fa-1x"></i>
 </a>
 </div>
@@ -39,6 +40,7 @@
 </div>
 </div>
 </div>
+{% endif %}
 
 </div>
 </div>
