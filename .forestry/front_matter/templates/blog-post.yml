@@ -35,7 +35,9 @@ fields:
       file: _data/usernames.yml
       path: Usernames
     required: true
-  label: author
+  label: Blog Post Author
+  default: hlubik
+  description: This field links to one of the entries in the Blog Authors list.
 pages:
 - _posts/2019-01-02-look-at-that-rock.md
 - _posts/2019-01-02-do-bovids-still-eat-grass.md
