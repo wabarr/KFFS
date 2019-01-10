@@ -5,8 +5,8 @@ date: 2019-01-02 19:59:32 +0000
 categories:
 - bovids
 - " grass"
-image: assets/images/favicon-32x32.png
+image: assets/images/impala.jpg
 author: wabarr
 
 ---
-Yes. 
+Yes. Yes they do. Also leaves.
