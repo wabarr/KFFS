@@ -9,10 +9,10 @@ sections:
   label: Navigation Menu
 - type: document
   path: _data/usernames.yml
-  label: usernames
+  label: Blog Authors
 - type: directory
   path: _people
-  label: People
+  label: Staff and Alumni
   create: documents
   match: "**/*"
   templates:
