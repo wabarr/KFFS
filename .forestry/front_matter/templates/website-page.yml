@@ -1,7 +1,6 @@
 ---
 label: Website Page
 hide_body: false
-is_partial: false
 fields:
 - type: text
   label: layout
@@ -18,7 +17,7 @@ fields:
   hidden: true
 pages:
 - packing-list.md
+- living-conditions.md
+- alumni.md
 - how-to-apply.md
 - fellowship.md
-- alumni.md
-- living-conditions.md

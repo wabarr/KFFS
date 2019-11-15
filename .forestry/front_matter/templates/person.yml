@@ -1,7 +1,6 @@
 ---
 label: Person
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: first_name
@@ -90,12 +89,12 @@ fields:
   hidden: true
   default: person_detail
 pages:
-- _people/sarah-hlubik.md
-- _people/david-braun.md
-- _people/tyler-faith.md
-- _people/lee-berger.md
 - _people/ashley-hammond.md
-- _people/andrew-barr.md
 - _people/purity-kiura.md
-- _people/rahab-kinyanjui.md
 - _people/emmanual-ndiema.md
+- _people/rahab-kinyanjui.md
+- _people/andrew-barr.md
+- _people/lee-berger.md
+- _people/tyler-faith.md
+- _people/david-braun.md
+- _people/sarah-hlubik.md
